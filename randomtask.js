@@ -24,3 +24,7 @@ var X;
 X=numone/numtwo+numthree/numone-numfour%numfour;
 
 console.log("What is 7/4+8/7-2%4");
+
+console.log(X);
+
+console.log
