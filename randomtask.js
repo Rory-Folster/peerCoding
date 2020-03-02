@@ -1,19 +1,11 @@
 //Setting Variables
-var numone;
+var numone = 6;
 
-var numtwo;
+var numtwo = 14;
 
-var numthree;
+var numthree = 1557;
 
-var numfour;
-
-numone=7;
-
-numtwo=4;
-
-numthree=8;
-
-numfour=2;
+var numfour = 21;
 
 //Equation;
 console.log(numone / numtwo + numthree / numone - numfour % numfour);
@@ -23,8 +15,9 @@ var X;
 
 X=numone/numtwo+numthree/numone-numfour%numfour;
 
-console.log("What is 7/4+8/7-2%4");
+console.log("What is 7/4+8/7-2%4=");
 
 console.log(X);
-
-console.log
+var comeOn = ((numone / numtwo + numthree) / numone - numfour) % numfour;
+//Adding brackets
+console.log(comeOn);
