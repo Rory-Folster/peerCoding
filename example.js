@@ -17,6 +17,11 @@ console.log(lastname);
 console.log(firstname + " " + lastname);
 
 
+
+
+
+
+
 // Scope and nested functions example1:
 //Accessing Local var in outer function from inner function
 //Outer Function
@@ -28,4 +33,7 @@ function myInnerFunc() {
 //Try to access the value of myLocalVariable
 //from funtion inside the myFunc Function
 myLocalVariable
-//"I am local"
+//'I am local'    myLocalLetVariable
+//'I am also local'
+}
+}
