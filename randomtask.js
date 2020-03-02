@@ -1,3 +1,4 @@
+//Setting Variables
 var numone;
 
 var numtwo;
@@ -14,4 +15,12 @@ numthree=8;
 
 numfour=2;
 
+//Equation;
 console.log(numone / numtwo + numthree / numone - numfour % numfour);
+
+//Adding Variable X, testing;
+var X;
+
+X=numone/numtwo+numthree/numone-numfour%numfour;
+
+console.log("What is 7/4+8/7-2%4");
