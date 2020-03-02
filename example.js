@@ -16,3 +16,16 @@ console.log(lastname);
 //Combined together
 console.log(firstname + " " + lastname);
 
+
+// Scope and nested functions example1:
+//Accessing Local var in outer function from inner function
+//Outer Function
+function myFunc() {
+//Local Variable
+var myLocalVariable = "I am local"
+let myLocalVariable = "I am also local" //Inner Function
+function myInnerFunc() {
+//Try to access the value of myLocalVariable
+//from funtion inside the myFunc Function
+myLocalVariable
+//"I am local"
