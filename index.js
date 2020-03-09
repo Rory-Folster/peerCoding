@@ -41,6 +41,17 @@ console.log( a > b );
 console.log( a >= b );
 //Less Than or Equal To
 console.log( a <= b );
+//With numbers in a string, still works
+console.log (10 == '10');
+//With letters
+console.log( "A" == "a" );
+console.log( "A" == "A" );
+console.log( "Z" > "A" );
+//with TRUE and FALSE (True is equal to 1, False is equal to 0)
+//The normal equality operator “==” converts different Data Types to a number
+console.log( true == 1 );
+console.log( false == 0 );
+
 
 
 if (a == b) {
