@@ -41,7 +41,27 @@ console.log( a > b );
 console.log( a >= b );
 //Less Than or Equal To
 console.log( a <= b );
+//With numbers in a string, still works
+console.log (10 == '10');
+//With letters
+console.log( "A" == "a" );
+console.log( "A" == "A" );
+console.log( "Z" > "A" );
+//with TRUE and FALSE (True is equal to 1, False is equal to 0)
+//The normal equality operator “==” converts different Data Types to a number
+console.log( true == 1 );
+console.log( false == 0 );
+//To show how === doesnt convert 'true' to a data number
+console.log( true === 1 )
 
+//Null is not converted to a number, treated as 'null' /nothing
+console.log( null == 0 ); 
+//null and 0 are different data types, so not the same
+console.log ( null === 0 );
+//Null is converted to 0, 0 is not greater than 0
+console.log ( null > 0 );
+//Null converted to 0, 0 isnt greather than 0, but IT IS equal to 0, so true
+console.log( null >= 0 );
 
 if (a == b) {
     console.log('same numbers')
@@ -77,17 +97,4 @@ console.log(" ");
 console.log(0 == false);
 console.log(0 === false);
 
-console.log(null == 0); //false because null cecomes 0, 0 == 0 again, 0 cant be less so false
-console.log(null === 0); //false because they are two different data types
-console.log(null > 0); //null is changed into 0, 0 is not greater than 0 so flase
-console.log(null < 0); //null is converted to 0, 0 cannot be less than 0. So false
-console.log(null >= 0); //null is converted to 0, 0 can be greater than or equal to 0. So true
-console.log(" ");
-console.log(undefined == null); 
-console.log(undefined === null);
-console.log(" ");
-console.log(undefined == 0);
-console.log(undefined === 0);
-console.log(undefined > 0);
-console.log(undefined >= null);
 
