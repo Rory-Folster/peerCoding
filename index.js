@@ -46,3 +46,48 @@ console.log( a <= b );
 if (a == b) {
     console.log('same numbers')
 }
+
+console.log(true == 1); //equal to
+console.log(true == '1');
+console.log(true == 0);
+console.log(false == 1); //equal to
+console.log(true == 0);
+console.log(true == '0');
+
+console.log(" ");
+
+console.log(true != 1); //not equal to
+console.log(true != '1');
+console.log(true != 0);
+console.log(false != 1); //not equal to
+console.log(true != 0);
+console.log(true != '0');
+console.log("Raise" > "Race")
+console.log("A" == "a")
+
+//learning between == and ===
+console.log(1 == '1');
+console.log(1 === '1');
+console.log(" ");
+
+console.log(1 == true);
+console.log(1 === true);
+console.log(" ");
+
+console.log(0 == false);
+console.log(0 === false);
+
+console.log(null == 0); //false because null cecomes 0, 0 == 0 again, 0 cant be less so false
+console.log(null === 0); //false because they are two different data types
+console.log(null > 0); //null is changed into 0, 0 is not greater than 0 so flase
+console.log(null < 0); //null is converted to 0, 0 cannot be less than 0. So false
+console.log(null >= 0); //null is converted to 0, 0 can be greater than or equal to 0. So true
+console.log(" ");
+console.log(undefined == null); 
+console.log(undefined === null);
+console.log(" ");
+console.log(undefined == 0);
+console.log(undefined === 0);
+console.log(undefined > 0);
+console.log(undefined >= null);
+
