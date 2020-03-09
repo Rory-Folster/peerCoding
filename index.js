@@ -61,10 +61,5 @@ console.log ( null === 0 );
 //Null is converted to 0, 0 is not greater than 0
 console.log ( null > 0 );
 //Null converted to 0, 0 isnt greather than 0, but IT IS equal to 0, so true
-console.log ( null >= 0 );
+console.log( null >= 0 );
 
-
-
-if (a == b) {
-    console.log('same numbers')
-}
