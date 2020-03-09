@@ -1,28 +1,29 @@
-var number1
-number1=9;
 
-var number2 
-number2=13;
-// maths questions w/ answer
-console.log("What is 13-9");
+console.log( +true );  // 1, true is converted to 1 using unary plus
 
-console.log(number2-number1);
+console.log( +false ); // 0, false is converted to 0
 
-console.log(number2-number1);
+console.log( +"" );   // 0, empty string converted to 0
 
-console.log("What is 13+9");
+console.log(10 + 5 * 3); // 25, First Multiplication then Addition
 
-console.log(number2+number1);
+console.log(1 + 2, 3 + 4);
+console.log(5 + 6, 7 + 8);
+console.log(8 + 9, 10 + 11);
 
-console.log("What is 13/9");
+let x = 7;
+let y = 4;
 
-console.log(number1/number2);
+console.log(x += y);
+console.log(10 -= x);
+console.log(10 *= x);
+console.log(10 /= x);
+console.log(10 %= x);
 
-console.log("What is 9% of 13");
-
-console.log(number2%number1);
-
-console.log("What is 13x9");
-
-console.log(number1*number2);
-
+// //Operator         Description              Example         Equals 
+//   // =               Assign                 x = y           x = y
+//    //+=           Add and Assign            x += y          x = x + y
+//    -=        Subtract and Assign          x -= y          x = x - y
+//    *=         Multiply and Assign         x *= y          x = x * y
+//    /=         Divide and Assign           x /= y          x = x / y
+//    %=      Divide and Assign modulus      x %= y          x = x % y
