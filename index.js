@@ -1,28 +1,40 @@
-var number1
-number1=9;
+//10/03/2020
+console.log( +true );  // 1, true is converted to 1 using unary plus
 
-var number2 
-number2=13;
-// maths questions w/ answer
-console.log("What is 13-9");
+console.log( +false ); // 0, false is converted to 0
 
-console.log(number2-number1);
+console.log( +"" );   // 0, empty string converted to 0
 
-console.log(number2-number1);
+console.log(10 + 5 * 3); // 25, First Multiplication then Addition
 
-console.log("What is 13+9");
+let x = 10;
+//Assign
+console.log( "=" )
+//Add and Assign (adds x and then assigns original value of x)
+console.log( x += 10);
+//Subtract and Assign
+console.log( x -= 10);
+//Multiply and Assign
+console.log( x *= 10);
+//Divide and Assign
+console.log( x /= 10);
+//Divide and Assign Modulus
+//The modulus assignment operator divides the value stored in the left variable by the right value.
+//If value is a string, an attempt is made to convert the string to a number before performing the modulus and assignment.
+console.log( x %= 9);
 
-console.log(number2+number1);
+// Operator       Name        
+//   ==           Equal
+//   ===          Identical    // check equality of data type
+//   !=           Not equal
+//   !==          Not identical //check inequality of data type
+//   <           Less than
+//   >           Greater than
+//   >=          Greater than or equal to
+//   <=          Less than or equal to
 
-console.log("What is 13/9");
-
-console.log(number1/number2);
-
-console.log("What is 9% of 13");
-
-console.log(number2%number1);
-
-console.log("What is 13x9");
-
-console.log(number1*number2);
-
+    let a = 10
+    let b = 2
+if (a == b) {
+    console.log('same numbers')
+}
