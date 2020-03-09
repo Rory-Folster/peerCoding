@@ -1,3 +1,8 @@
+let firstName = "Rory";
+
+let lastName = "Folster";
+
+console.log(firstName + " " + lastName);
 //Setting a constant
 const firstname = "Jamie";
 
@@ -17,23 +22,15 @@ console.log(lastname);
 console.log(firstname + " " + lastname);
 
 
-
-
-
-
-
-// Scope and nested functions example1:
-//Accessing Local var in outer function from inner function
-//Outer Function
+//Scope and nesdter functions example 1:
+//Accessing local variable in outer function from inner function
+// Outer function
 function myFunc() {
-//Local Variable
-var myLocalVariable = "I am local"
-let myLocalVariable = "I am also local" //Inner Function
-function myInnerFunc() {
-//Try to access the value of myLocalVariable
-//from funtion inside the myFunc Function
-myLocalVariable
-//'I am local'    myLocalLetVariable
-//'I am also local'
-}
-}
+    //local variable
+    var myLocalVariable = 'I am local'
+    let myLocalLetVariable = 'i am also local' //Inner function function myInnerFunc() {
+        //Try to access the value of myLocalVariable
+        //From function inside the myFunc function myLocalVariable
+        // 'I am local'   My localLetVariable
+        // 'I am also local'
+    }
