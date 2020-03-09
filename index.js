@@ -51,6 +51,17 @@ console.log( "Z" > "A" );
 //The normal equality operator “==” converts different Data Types to a number
 console.log( true == 1 );
 console.log( false == 0 );
+//To show how === doesnt convert 'true' to a data number
+console.log( true === 1 )
+
+//Null is not converted to a number, treated as 'null' /nothing
+console.log( null == 0 ); 
+//null and 0 are different data types, so not the same
+console.log ( null === 0 );
+//Null is converted to 0, 0 is not greater than 0
+console.log ( null > 0 );
+//Null converted to 0, 0 isnt greather than 0, but IT IS equal to 0, so true
+console.log ( null >= 0 );
 
 
 
