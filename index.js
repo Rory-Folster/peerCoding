@@ -1,4 +1,4 @@
-
+//10/03/2020 OPERATORS
 console.log( +true );  // 1, true is converted to 1 using unary plus
 
 console.log( +false ); // 0, false is converted to 0
@@ -7,39 +7,42 @@ console.log( +"" );   // 0, empty string converted to 0
 
 console.log(10 + 5 * 3); // 25, First Multiplication then Addition
 
-console.log(1 + 2, 3 + 4);
-console.log(5 + 6, 7 + 8);
-console.log(8 + 9, 10 + 11);
+let x = 10;
+//Assign
+console.log( "=" )
+//Add and Assign (adds x and then assigns original value of x)
+console.log( x += 10);
+//Subtract and Assign
+console.log( x -= 10);
+//Multiply and Assign
+console.log( x *= 10);
+//Divide and Assign
+console.log( x /= 10);
+//Divide and Assign Modulus
+//The modulus assignment operator divides the value stored in the left variable by the right value.
+//If value is a string, an attempt is made to convert the string to a number before performing the modulus and assignment.
+console.log( x %= 9);
 
-let x = 7;
-let y = 4;
-
-console.log(x += y);
-console.log(x -= y);
-console.log(x *= y);
-console.log(x /= y);
-console.log(x %= y);
-
-// //Operator         Description              Example         Equals 
-//   // =               Assign                 x = y           x = y
-//    //+=           Add and Assign            x += y          x = x + y
-//    -=        Subtract and Assign          x -= y          x = x - y
-//    *=         Multiply and Assign         x *= y          x = x * y
-//    /=         Divide and Assign           x /= y          x = x / y
-//    %=      Divide and Assign modulus      x %= y          x = x % y
-
-let a=15
-let b=3
-
-if ( a == b ) 
-console.log('same numbers');
-
-console.log( a == b ); //equal to
+    let a = 10
+    let b = 5
+//== Equal (is a equal to b ?)
 console.log( a == b );
-console.log( a != b ); //not equal too
+//Identical /Check equality of data type
+console.log( a === b );
+//Not equal (Does a NOT equal same as b?)
 console.log( a != b );
-console.log( a < b ); //less than
+//Not identical /Check inequality of data type
+console.log( a !== b );
+//Less Than (Is a less than b)
 console.log( a < b );
-console.log( a > b );//greater than
+//Greater Than (is a greater than b)
 console.log( a > b );
+//Greater Than or Equal To
+console.log( a >= b );
+//Less Than or Equal To
+console.log( a <= b );
 
+
+if (a == b) {
+    console.log('same numbers')
+}
