@@ -15,10 +15,10 @@ let x = 7;
 let y = 4;
 
 console.log(x += y);
-console.log(10 -= x);
-console.log(10 *= x);
-console.log(10 /= x);
-console.log(10 %= x);
+console.log(x -= y);
+console.log(x *= y);
+console.log(x /= y);
+console.log(x %= y);
 
 // //Operator         Description              Example         Equals 
 //   // =               Assign                 x = y           x = y
@@ -27,3 +27,19 @@ console.log(10 %= x);
 //    *=         Multiply and Assign         x *= y          x = x * y
 //    /=         Divide and Assign           x /= y          x = x / y
 //    %=      Divide and Assign modulus      x %= y          x = x % y
+
+let a=15
+let b=3
+
+if ( a == b ) 
+console.log('same numbers');
+
+console.log( a == b ); //equal to
+console.log( a == b );
+console.log( a != b ); //not equal too
+console.log( a != b );
+console.log( a < b ); //less than
+console.log( a < b );
+console.log( a > b );//greater than
+console.log( a > b );
+
